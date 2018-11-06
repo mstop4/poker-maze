@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "b518e73c-0909-4678-9bb9-6073e3dee7c4",
+            "Value": {
+                "id": "80d1d055-1d8b-4305-b95f-13d29adedccb",
+                "resourcePath": "scripts\\print\\print.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c39a01eb-8f07-454d-83c8-b899403f6a1a",
             "Value": {
                 "id": "9848e888-6214-4de4-8121-d2f5f2c86ca0",
@@ -196,6 +204,14 @@
                 "id": "c9753d65-f169-4576-a861-77cb506ab37b",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d82cd399-9ea0-4297-b84b-4d8c96bac2f5",
+            "Value": {
+                "id": "ba449c49-a20b-4fa2-ac59-caa557e7dc63",
+                "resourcePath": "objects\\obj_network_test\\obj_network_test.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -224,7 +240,7 @@
         }
     ],
     "script_order": [
-        
+        "b518e73c-0909-4678-9bb9-6073e3dee7c4"
     ],
     "tutorial": ""
 }
