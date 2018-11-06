@@ -43,6 +43,16 @@
             "enumb": 68,
             "eventtype": 7,
             "m_owner": "d82cd399-9ea0-4297-b84b-4d8c96bac2f5"
+        },
+        {
+            "id": "19d96b53-634c-43e4-8b9a-cfa3acb54c58",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 67,
+            "eventtype": 9,
+            "m_owner": "d82cd399-9ea0-4297-b84b-4d8c96bac2f5"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -61,7 +71,50 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "f558d68e-acd3-4a68-a059-c06d0f9959c5",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "localhost",
+            "varName": "server_address",
+            "varType": 2
+        },
+        {
+            "id": "de1b4190-f26e-4e98-8468-a0ffb038a742",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 65535,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "3000",
+            "varName": "port",
+            "varType": 1
+        },
+        {
+            "id": "29bd61b1-de48-44d3-af4e-6886627334cd",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "64",
+            "varName": "buffer_size",
+            "varType": 0
+        }
+    ],
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
