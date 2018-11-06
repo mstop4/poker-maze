@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "700acfbc-4b45-4920-8b4c-5a2a217b097e",
+            "Value": {
+                "id": "96f1894f-bba0-4724-a642-6da534498839",
+                "resourcePath": "scripts\\console_log\\console_log.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
             "Value": {
                 "id": "de1e763e-1f31-4d86-ad96-8551e9d64d31",
@@ -191,6 +199,14 @@
             }
         },
         {
+            "Key": "c181e35d-019b-487d-a677-2074eba0f901",
+            "Value": {
+                "id": "77b6cf50-9ab0-4de3-9c55-4504110f9754",
+                "resourcePath": "fonts\\fnt_console\\fnt_console.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "c39a01eb-8f07-454d-83c8-b899403f6a1a",
             "Value": {
                 "id": "9848e888-6214-4de4-8121-d2f5f2c86ca0",
@@ -237,10 +253,20 @@
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
             }
+        },
+        {
+            "Key": "fff03ce9-e8cf-4dc2-9ab6-91b92396b2e7",
+            "Value": {
+                "id": "b5e9c6f9-8d2c-40b2-9f8b-8084547bc4d1",
+                "resourcePath": "scripts\\init_enums\\init_enums.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
-        "b518e73c-0909-4678-9bb9-6073e3dee7c4"
+        "b518e73c-0909-4678-9bb9-6073e3dee7c4",
+        "700acfbc-4b45-4920-8b4c-5a2a217b097e",
+        "fff03ce9-e8cf-4dc2-9ab6-91b92396b2e7"
     ],
     "tutorial": ""
 }

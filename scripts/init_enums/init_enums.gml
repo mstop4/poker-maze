@@ -1,0 +1,4 @@
+enum who {
+	client,
+	server
+}

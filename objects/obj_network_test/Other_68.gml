@@ -5,12 +5,12 @@ switch (async_load[? "type"]) {
 	
 	case network_type_connect:
 		var socket_id = async_load[? "socket"];
-		print("Client ", socket_id, " connected from: ", ip, ":", port);
+		console_log(who.server, "Client ", socket_id, " connected from: ", ip, ":", port);
 		break;
 		
 	case network_type_disconnect:
 		var socket_id = async_load[? "socket"];
-		print("Client ", socket_id, " disconnected");
+		console_log(who.server, "Client ", socket_id, " disconnected");
 		break;
 		
 	case network_type_data:
@@ -18,6 +18,6 @@ switch (async_load[? "type"]) {
 		var data_len = async_load[? "size"];
 		
 		var msg = buffer_read(data, buffer_string);
-		print(ip, ":", port, " sez: ", msg);
+		console_log(who.server,  ip, ":", port, " sez: ", msg);
 		break;
 }

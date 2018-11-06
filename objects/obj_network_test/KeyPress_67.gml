@@ -1,14 +1,25 @@
-socket = network_create_socket(network_socket_tcp);
 if (socket < 0) {
-	print("Failed to create socket");	
-	exit;
+	socket = network_create_socket(network_socket_tcp);
+	if (socket < 0) {
+		console_log(who.client, "Failed to create socket");	
+		exit;
+	}
+	console_log(who.client, "Socket created");
 }
 
-print("Socket created");
-
-connected = network_connect(socket, server_address, port);
-if (connected < 0) {
-	print("Failed to connect to server");	
-	exit;
+else {
+	console_log(who.client, "Socket already exists");
 }
-print("Connected to server on " + string(server_address) + ":" + string(port));
+
+if (connection < 0) {
+	connection = network_connect(socket, server_address, port);
+	if (connection < 0) {
+		console_log(who.client, "Failed to connect to server");	
+		exit;
+	}
+	console_log(who.client, "Connected to server on " + string(server_address) + ":" + string(port));
+}
+
+else {
+	console_log(who.client, "Already connected to server");
+}
