@@ -1,0 +1,1 @@
+buffer_delete(input_buffer);

@@ -1,0 +1,1 @@
+print(buffer_get_size(input_buffer));
