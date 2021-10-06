@@ -1,0 +1,1 @@
+my_state = PLAYER_STATE.OK;

@@ -1,0 +1,5 @@
+enum PLAYER_STATE {
+	OK,
+	OUCH,
+	INVINCIBLE,
+}
